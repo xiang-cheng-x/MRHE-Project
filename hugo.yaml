@@ -1,4 +1,4 @@
-baseURL: "https://mrhe-project.vercel.app"
+baseURL: "https://mrhe-project.vercel.app/"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
