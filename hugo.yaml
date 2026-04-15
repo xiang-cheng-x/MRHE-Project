@@ -49,8 +49,8 @@ languages:
           name: "Currículum"
           params:
   # 这一行最关键，它会绕过你本地缺失的文件，直接去官方地址拿样式
-   custom_css: ["https://cdn.jsdelivr.net/gh/gurusabarish/hugo-profile@master/static/css/main.css"]
-   useBootstrapCDN: true
+       custom_css: ["https://cdn.jsdelivr.net/gh/gurusabarish/hugo-profile@master/static/css/main.css"]
+       useBootstrapCDN: true
   
       about:
         title: "Sobre Mí"
