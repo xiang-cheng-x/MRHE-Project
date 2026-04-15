@@ -48,6 +48,11 @@ languages:
         content: "Una desarrolladora apasionada de aplicaciones web. Tiendo a hacer uso de tecnologías web modernas para construir sitios web que se ven geniales, se sienten fantásticos y funcionan correctamente."
         button:
           name: "Currículum"
+          params:
+  # 这一行最关键，它会绕过你本地缺失的文件，直接去官方地址拿样式
+  custom_css: ["https://cdn.jsdelivr.net/gh/gurusabarish/hugo-profile@master/static/css/main.css"]
+  useBootstrapCDN: true
+  
       about:
         title: "Sobre Mí"
         content: |-
