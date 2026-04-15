@@ -3,23 +3,16 @@ languageCode: "en-us"
 title: "My Profile"
 
 params:
-  # 这两行是核心：让你的网页直接去网上抓皮肤，不从本地找了
   useBootstrapCDN: true
   custom_css: ["https://cdn.jsdelivr.net/gh/gurusabarish/hugo-profile@master/static/css/main.css"]
-
-  # 基础展示设置
   hero:
     enable: true
     title: "Hi, I am Isabella"
     content: "Welcome to my website."
     image: "images/hero.svg"
-
-  # 导航栏开关
   navbar:
     enable: true
     showLanguageSelector: true
-
-  # 页面布局开关
   about:
     enable: true
   experience:
